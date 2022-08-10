@@ -1,0 +1,30 @@
+.app-header {
+
+  border-bottom: 1px solid gray;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-grid {
+  display: grid;
+  column-gap:16px;
+  row-gap: 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+}
+
+.app-header-logo {
+  height: 44px;
+}
+
+.tattoo-item img {
+  display: block;
+  width:100%;
+
+}
